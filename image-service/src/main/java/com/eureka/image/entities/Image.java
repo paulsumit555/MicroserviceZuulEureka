@@ -5,6 +5,12 @@ public class Image {
 	int id;
 	String title;
 	String url;
+	public Image(int id, String title, String url) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.url = url;
+	}
 	public int getId() {
 		return id;
 	}
@@ -21,12 +27,6 @@ public class Image {
 		return url;
 	}
 	public void setUrl(String url) {
-		this.url = url;
-	}
-	public Image(int id, String title, String url) {
-		super();
-		this.id = id;
-		this.title = title;
 		this.url = url;
 	}
 	
